@@ -1,0 +1,93 @@
+body {
+    background-color: #DDDDDD;
+}
+#title {
+    border: 2px solid rgb(59, 44, 44);
+    color: rgb(51, 63, 51);
+    font-size: 33px;
+    font-family: monospace;
+    text-align: center;
+}
+
+#img-div img {
+    margin-left: 10%;
+    border: 2px solid rgb(59, 44, 44);
+
+    
+}
+#img-caption {
+    color: rgb(51, 63, 51);
+    font-size: 22px;
+    font-family: monospace;
+    text-align: center;
+}
+#tribute-info h1 {
+    color: rgb(51, 63, 51);
+    font-size: 30px;
+    font-family: monospace;
+    text-align: center; 
+}
+#tribute-info p {
+    color: rgb(51, 63, 51);
+    font-size: 16px;
+    font-family: monospace;
+    text-align: center; 
+}
+#tribute-info a {
+    color: rgb(51, 63, 51);
+    font-size: 16px;
+    font-family: monospace;
+    margin-left: 43%;
+}
+
+footer {
+    margin-top: 2%;
+    border: 2px solid rgb(59, 44, 44);
+}
+
+footer p {
+    margin-left: 43%;
+    font-family: monospace;
+}
+
+    /* Desktops and laptops ----------- */
+@media only screen  and (min-width : 400px) {
+    #img-div img {
+        margin-top: 10%;
+        margin-left: 10%;
+        border: 2px solid rgb(59, 44, 44);
+        height: 80%;
+        width: 80%;
+    }
+    footer p {
+    margin-left: 33%;
+    font-family: monospace;
+}
+#tribute-info a {
+    color: rgb(51, 63, 51);
+    font-size: 16px;
+    font-family: monospace;
+    margin-left: 33%;
+}
+    }
+    
+    /* Large screens ----------- */
+    @media only screen  and (min-width : 760px) {
+        #img-div img {
+            margin-top: 10%;
+            margin-left: 10%;
+            border: 2px solid rgb(59, 44, 44);
+            height: 80%;
+            width: 80%;
+        }
+        footer p {
+            margin-left: 43%;
+            font-family: monospace;
+        }
+        #tribute-info a {
+            color: rgb(51, 63, 51);
+            font-size: 16px;
+            font-family: monospace;
+            margin-left: 43%;
+        }
+    } 
